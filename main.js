@@ -1,6 +1,5 @@
-
 if (window.location.hostname.includes("moodle")) {
-// Get all anchor (<a>) tags on the page
+    // Get all anchor (<a>) tags on the page
     const anchors = document.querySelectorAll('a');
     anchors.forEach(anchor => {
         // Get the href attribute (URL)
